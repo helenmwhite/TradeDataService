@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appInsightsComponentName_TradeDataService_name": {
+      "type": "string"
+    },
+    "appInsightsComponentName_TradeDataService_location": {
+      "type": "string"
+    },
+    "appInsightsComponentName_TradeDataService_type": {
+      "type": "string"
+    },
+    "appInsightsComponentName_TradeDataService_hockeyAppToken": {
+      "type": "string"
+    },
+    "appInsightsComponentName_TradeDataService_requestSource": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "location": "[parameters('appInsightsComponentName_TradeDataService_location')]",
+      "name": "[parameters('appInsightsComponentName_TradeDataService_name')]",
+      "type": "microsoft.insights/components",
+      "apiVersion": "2014-08-01",
+      "properties": {
+        "ApplicationId": "[parameters('appInsightsComponentName_TradeDataService_name')]",
+        "Application_Type": "[parameters('appInsightsComponentName_TradeDataService_type')]",
+        "HockeyAppToken": "[parameters('appInsightsComponentName_TradeDataService_hockeyAppToken')]",
+        "HockeyAppId": "[parameters('appInsightsComponentName_TradeDataService_hockeyAppToken')]",
+        "Flow_Type": "Redfield",
+        "Request_Source": "[parameters('appInsightsComponentName_TradeDataService_requestSource')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[{  
+  counterparty: "Inter Bank", isin: "X123", countryOfIssue: "CAD", price: 2.48, quantity:1000, filter: true
+},  {
+  counterparty: "East Asia Bank", isin: "W987", countryOfIssue: "FRF", price: 12.93, quantity:1000, filter: true
+}, {
+  counterparty: "Bank of Iberia", isin: "X123", countryOfIssue: "ESP", price: 7.32, quantity:1000, filter: true
+}, {
+  counterparty: "EthiFund", isin: "Z987", countryOfIssue: "UKP", price: 43.62, quantity:35000, filter: true
+}]
