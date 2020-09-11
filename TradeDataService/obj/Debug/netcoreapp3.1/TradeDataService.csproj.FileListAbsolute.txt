@@ -25,3 +25,4 @@ C:\Users\User\TradeDataService\TradeDataService\TradeDataService\obj\Debug\netco
 C:\Users\User\TradeDataService\TradeDataService\TradeDataService\obj\Debug\netcoreapp3.1\TradeDataService.dll
 C:\Users\User\TradeDataService\TradeDataService\TradeDataService\obj\Debug\netcoreapp3.1\TradeDataService.pdb
 C:\Users\User\TradeDataService\TradeDataService\TradeDataService\obj\Debug\netcoreapp3.1\TradeDataService.genruntimeconfig.cache
+C:\Users\User\TradeDataService\TradeDataService\TradeDataService\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\TradeDataService20200809190135 - Web Deploy\profile.arm.json
