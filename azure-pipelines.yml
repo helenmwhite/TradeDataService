@@ -44,7 +44,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'TradeDataService/TradeDataService/TradeDataService.csproj'
+    projects: 'TradeDataService/TradeDataService.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
     
