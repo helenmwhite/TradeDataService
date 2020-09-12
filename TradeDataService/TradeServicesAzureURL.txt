@@ -1,1 +1,2 @@
-https://tradedataservice20200809190135.azurewebsites.net
+# https://tradedataservice20200809190135.azurewebsites.net
+https://tradedataservice.azurewebsites.net
