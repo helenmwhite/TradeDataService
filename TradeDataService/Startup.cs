@@ -35,7 +35,10 @@ namespace TradeDataService
 
             app.UseRouting();
 
-            app.UseCors(builder => builder.WithOrigins("http://localhost:3000"));
+            //app.UseCors(builder => builder.WithOrigins("http://localhost:3000"));
+            app.UseAuthorization();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
