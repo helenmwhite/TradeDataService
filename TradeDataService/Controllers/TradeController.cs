@@ -20,7 +20,8 @@ namespace TradeDataService.Controllers
         public IEnumerable<Trade> Get()
         {
             //string filePath = @"C:\Users\User\TradeDataService\TradeDataService\TradeDataService\TradePortfolio.txt";
-            string filePath = @".\TradePortfolio.txt";
+            //string filePath = @".\TradePortfolio.txt";
+            string filePath = @"TradePortfolio.txt";
             var jsonText = System.IO.File.ReadAllText(filePath);
             var trades = JsonConvert.DeserializeObject<IList<Trade>>(jsonText);
             return trades;
