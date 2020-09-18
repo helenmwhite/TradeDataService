@@ -8,11 +8,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!-- <ItemGroup>
     <None Update="TradePortfolio.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
+  </ItemGroup> -->
 
+  <ItemGroup>
+    <Content Include="TradePortfolio.txt" />
+  </ItemGroup>
 
 </Project>
